@@ -10,6 +10,7 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 
@@ -46,7 +47,7 @@ html, body {
     padding: 40px;
     display: inline-block;
     width: 100%;
-    min-width: 540px;
+    min-width: 320px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -99,4 +100,15 @@ html, body {
 
 .card {
     margin: 0 auto;
+    max-width: 36rem;
+    min-width: 18rem;
+}
+
+.card-body {
+    margin-bottom: 108px;
+}
+
+#hidden {
+    margin-top: 40px;
+    opacity: 0.0;
 }

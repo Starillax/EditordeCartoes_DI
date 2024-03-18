@@ -12,7 +12,7 @@
         let imgArray = ['imgs/coracao.png', 'imgs/sol.png', 'imgs/natal.png', 'imgs/fogos.png', 'imgs/animais.png'];
 
         function mudarNome(val) {
-            document.querySelector("#nome").innerHTML = val;
+            document.querySelector("#nome").innerHTML = val + ",";
         }
 
         function mudarTexto(val) {
@@ -111,17 +111,16 @@
         </div>
     </div>
 
-    <div id="cartao" class="card text-center mb-3" style="width: 36rem;">
+    <div id="cartao" class="card text-center mb-3">
         <div class="card-body">
             <h5 class="card-title" id="nome">Nome da Pessoa,</h5>
             <p class="card-text" id="texto">mensagem.</p>
         </div>
 
-        <br><br><br><br><br>
-
-
         <img id="img" src="imgs/coracao.png" class="card-img-bottom" alt="">
     </div>
+
+    <div id="hidden">.</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
